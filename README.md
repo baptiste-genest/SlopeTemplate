@@ -3,7 +3,7 @@
 A [slope](https://github.com/baptiste-genest/slope) presentation built from a deck.
 Compose your slides in `slides/deck.yaml`.
 Define complicated animations in C++ `slides.cpp`.
-Live-editable values and functions in Lua `slides/snippets.yaml`.
+Live-editable values and functions in Lua `slides/snippets.lua`.
 Latex preamble 'slides/packages.tex'.
 
 Edit hot-reloaded files in the app by pressing E.
@@ -18,7 +18,7 @@ the [dependencies](https://slopedoc.github.io/cmake/).
 mkdir build && cd build
 cmake ..
 make -j
-./slope_project --project_path ..
+./slope_project --project_path ../slides
 ```
 
 ## Files
