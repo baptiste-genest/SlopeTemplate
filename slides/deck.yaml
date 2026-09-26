@@ -1,0 +1,19 @@
+snippets: snippets.lua
+commands: packages.tex
+
+
+slides:
+  - frame:
+      - title: My first slope project 
+        id: pifum   # generate with ctrl+N
+        at: CENTER
+      - step
+      - camera: spot_cam
+      - set: pifum
+        at: TOP
+      - latex: Behold!
+        at: bukug
+      - object: spot
+  - frame:
+      - title: A new slide
+        at: TOP
